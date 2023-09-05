@@ -87,7 +87,7 @@ table td {
     border-bottom: 0.5px solid #fff;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 750px) {
 
     .container {
         width: 90%;
