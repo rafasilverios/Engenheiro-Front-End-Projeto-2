@@ -7,7 +7,7 @@
 
 body {
     background-color: #E7E7E7;
-    padding-top: 100px
+    padding-top: 100px;
 }
 
 header {
@@ -68,7 +68,12 @@ table {
     color: #fff;
 }
 
+table tbody {
+    background-color: #6bd0ff;
+}
+
 table th {
+    min-width: 250px;
     border-bottom: 3px solid #fff;
     padding: 16px;
     font-size: 24px;
@@ -80,4 +85,43 @@ table td {
     text-align: center;
     font-size: 18px;
     border-bottom: 0.5px solid #fff;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    form {
+        display: block;
+    }
+
+    form {
+        display: block;
+    }
+
+    form input {        
+        width: 100%;
+        margin-bottom: 8px;
+        padding: 16px 8px;
+    }
+
+    form button,
+    form input {
+        font-size: 24px;
+    }
+    
+    table th {
+        min-width: auto;
+    }
+
+    table tr td {
+        font-size: 14px;
+    }
+
 }
